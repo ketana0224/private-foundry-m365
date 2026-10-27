@@ -1,4 +1,4 @@
-# private-foundry-m365: 同一テナントの Foundry エージェントを Microsoft 365 / Teams に公開する
+# private-foundry-m365: 同一テナントの PNA(Public Network Access)無効 Foundry エージェントを Microsoft 365 / Teams に公開する
 
 [関連構成: Power Platform から別テナント Azure への閉域接続](https://github.com/ketana0224/private-PPF_Azure)
 
