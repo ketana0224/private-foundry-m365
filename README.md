@@ -6,6 +6,8 @@
 
 Microsoft 365（M365）と**同じ Microsoft Entra テナント**にある Microsoft Foundry の既存エージェントを、M365 / Microsoft Teams から利用できるようにします。Foundry のパブリック ネットワーク アクセス（PNA）は無効のまま、REST API で公開設定を行います。
 
+> **注意（2026年10月27日時点）:** PNA を無効にした構成では、Foundry Portal から GUI による M365 / Teams への公開はサポートされていません。本書では REST API を使用します。PNA が有効な構成では GUI による公開が可能です。詳細は [Microsoft Learn の公開手順](https://learn.microsoft.com/en-us/azure/foundry/agents/how-to/publish-copilot)を参照してください。
+
 本書は、末尾の Microsoft Learn 2 記事を基に、このリポジトリ向けに手順を整理したものです（参照確認日: 2026-10-27）。API や画面、提供状況は変更されるため、実施時にも公式ドキュメントを確認してください。
 
 本書の手順を進めるには、PNA（Public Network Access）を無効にした Foundry をあらかじめ作成してください。なお、[関連構成: Power Platform から別テナント Azure への閉域接続](https://github.com/ketana0224/private-PPF_Azure)を構成済みの場合は、Foundry と M365 が同じテナントにあることなど、本書の前提条件を満たしていれば、その Foundry を利用して進められます。
